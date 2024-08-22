@@ -10,4 +10,6 @@ To trigger functionality, type: clang <input_file.c> -mllvm -analyze-Cyclomatic
 
 The cyclomatic functionality will be performed per function and output will be written to output.txt.  
 
+The exact code is located at llvm/lib/Analysis/CyclomaticComplexity.cpp  
+
 References: https://uditagarwal.in/writing-your-first-llvm-pass-and-registering-it-in-the-clang-toolchain/
